@@ -1,1 +1,6 @@
 /* Here is your custom css styles. */
+
+/*红色背景改为白色*/
+.red{
+    background-color: white !important;
+}

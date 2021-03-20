@@ -17,6 +17,19 @@
     
     
     <entry>
+      <title>Caddy2服务</title>
+      <link href="2021/03/17/Caddy2%E6%9C%8D%E5%8A%A1/"/>
+      <url>2021/03/17/Caddy2%E6%9C%8D%E5%8A%A1/</url>
+      
+        <content type="html"><![CDATA[<h3 id="开启Caddy2服务"><a href="#开启Caddy2服务" class="headerlink" title="开启Caddy2服务"></a>开启Caddy2服务</h3><p>新建Caddyfile文件</p><pre class="line-numbers language-none"><code class="language-none">开启一个站点服务，path为静态文件路径:8080 &#123;    root    *   &#x2F;path    file_server    encode  gzip&#125;开启一个文件服务器:8080 &#123;    file_server browse&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><blockquote><p>执行caddy run –config Caddyfile 或 caddy start –config Caddyfile以启动</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vmware虚拟机压缩磁盘</title>
       <link href="2021/03/04/vmware%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%8E%8B%E7%BC%A9%E7%A3%81%E7%9B%98/"/>
       <url>2021/03/04/vmware%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%8E%8B%E7%BC%A9%E7%A3%81%E7%9B%98/</url>
